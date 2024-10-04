@@ -1,0 +1,57 @@
+.container-login {
+    background-color: rgba(216, 216, 216, 0.242);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-login form {
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.251)
+}
+
+.container-action{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.container-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.container-logo img {
+    height: 50px;
+}
+
+.container-message{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.danger-message{
+    background-color: rgba(253, 58, 58, 0.778);
+    color: #fff;
+}
+
+.success-message{
+    background-color: rgba(2, 196, 2, 0.762);
+    color: #fff;
+}
+
+.content-message{
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.251)
+}
+
+body{
+    background-color: rgb(164, 228, 222);
+}
