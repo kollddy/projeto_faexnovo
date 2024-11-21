@@ -1,0 +1,17 @@
+{
+    "name": "regivaldo/videos",
+    "autoload": {
+        "psr-4": {
+            "Regivaldo\\Videos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Regivaldo",
+            "email": "dinhosantos95@gmail.com"
+        }
+    ],
+    "require": {
+        "coffeecode/router": "^2.0"
+    }
+}
